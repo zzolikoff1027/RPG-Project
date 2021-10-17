@@ -1,0 +1,271 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.1f1 (77a89f25062f) revision 7841951'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19043.1288; Version 2009; 64bit' Language: 'en' Physical Memory: 3522 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Unity/Projects/RPG Project/RPG-Project/RPG Project
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+55427
+Successfully changed project path to: D:/Unity/Projects/RPG Project/RPG-Project/RPG Project
+D:/Unity/Projects/RPG Project/RPG-Project/RPG Project
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 53.90 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.1f1 (77a89f25062f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity/Projects/RPG Project/RPG-Project/RPG Project/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Vega 3 Graphics (ID=0x15d8)
+    Vendor:   
+    VRAM:     1761 MB
+    Driver:   27.20.1028.1
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56540
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006646 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 35.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to find bridge dll in registry for Microsoft Visual Studio Tools for Unity for C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\devenv.exe
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.931 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.009214 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 42.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.439 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 0.75 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1401 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 66.0 MB.
+System memory in use after: 66.1 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1839.
+Total: 3.936800 ms (FindLiveObjects: 0.289000 ms CreateObjectMapping: 0.135800 ms MarkObjects: 3.383900 ms  DeleteObjects: 0.125400 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Tilemaps/RPG_Map.tmx
+  artifactKey: Guid(891fdfb7c940e1249ad9eed20a515b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/RPG_Map.tmx using Guid(891fdfb7c940e1249ad9eed20a515b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66d262fa2183f1dbe6dcdc2a7d6f5a8a') in 0.081726 seconds
+  Import took 0.089862 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000475 seconds.
+  path: Assets/Tilemaps/RpgTileSet.tsx
+  artifactKey: Guid(07a6a1a519f74cd4aa8e1f0fd247dda0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/RpgTileSet.tsx using Guid(07a6a1a519f74cd4aa8e1f0fd247dda0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26b10454a97122504a0bccaa92da4a9f') in 0.010811 seconds
+  Import took 0.014361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000636 seconds.
+  path: Assets/Tilemaps/background.png
+  artifactKey: Guid(6f1e907e488d57c439ef374e47a8178d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/background.png using Guid(6f1e907e488d57c439ef374e47a8178d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3c70eaddab7efdf50de15e3f514b208') in 0.184542 seconds
+  Import took 0.188269 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.556284 seconds.
+  path: Assets/Tilemaps/RPG_Map.tmx
+  artifactKey: Guid(891fdfb7c940e1249ad9eed20a515b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/RPG_Map.tmx using Guid(891fdfb7c940e1249ad9eed20a515b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '571668b121f69bccb1ca14d406cf7c47') in 0.013280 seconds
+  Import took 0.018124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000700 seconds.
+  path: Assets/Tilemaps/RpgTileSet.tsx
+  artifactKey: Guid(07a6a1a519f74cd4aa8e1f0fd247dda0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/RpgTileSet.tsx using Guid(07a6a1a519f74cd4aa8e1f0fd247dda0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b2ae993e4ba48b71c83e635d265a486') in 0.007428 seconds
+  Import took 0.011079 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.358941 seconds.
+  path: Assets/Tilemaps/RPG_Map.tmx
+  artifactKey: Guid(891fdfb7c940e1249ad9eed20a515b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/RPG_Map.tmx using Guid(891fdfb7c940e1249ad9eed20a515b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9945cceb90da88504549e43506cbcb41') in 0.012835 seconds
+  Import took 0.018321 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000447 seconds.
+  path: Assets/Tilemaps/RpgTileSet.tsx
+  artifactKey: Guid(07a6a1a519f74cd4aa8e1f0fd247dda0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/RpgTileSet.tsx using Guid(07a6a1a519f74cd4aa8e1f0fd247dda0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02bac91e766cc0ac50e49b417eec0207') in 0.007650 seconds
+  Import took 0.014313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034963 seconds.
+  path: Assets/Tilemaps/RpgTileSet.tsx
+  artifactKey: Guid(07a6a1a519f74cd4aa8e1f0fd247dda0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/RpgTileSet.tsx using Guid(07a6a1a519f74cd4aa8e1f0fd247dda0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02bac91e766cc0ac50e49b417eec0207') in 0.007372 seconds
+  Import took 0.012552 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 114.698154 seconds.
+  path: Assets/Tilemaps/RPG_Map.tmx
+  artifactKey: Guid(891fdfb7c940e1249ad9eed20a515b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/RPG_Map.tmx using Guid(891fdfb7c940e1249ad9eed20a515b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0238cd56ee010b16c7b7ad6e8606c226') in 0.011132 seconds
+  Import took 0.016465 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000590 seconds.
+  path: Assets/Tilemaps/RpgTileSet.tsx
+  artifactKey: Guid(07a6a1a519f74cd4aa8e1f0fd247dda0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/RpgTileSet.tsx using Guid(07a6a1a519f74cd4aa8e1f0fd247dda0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e21239d25b410fa4f635840984fe3ab') in 0.005767 seconds
+  Import took 0.012148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012009 seconds.
+  path: Assets/Tilemaps/RPG_Map.tmx
+  artifactKey: Guid(891fdfb7c940e1249ad9eed20a515b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/RPG_Map.tmx using Guid(891fdfb7c940e1249ad9eed20a515b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0238cd56ee010b16c7b7ad6e8606c226') in 0.013941 seconds
+  Import took 0.019342 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 136.692868 seconds.
+  path: Assets/Tilemaps/RPG_Map.tmx
+  artifactKey: Guid(891fdfb7c940e1249ad9eed20a515b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/RPG_Map.tmx using Guid(891fdfb7c940e1249ad9eed20a515b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d5be2041ce5e39268fe17c645d1c74a') in 0.007208 seconds
+  Import took 0.011702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032727 seconds.
+  path: Assets/Tilemaps/RPG_Map.tmx
+  artifactKey: Guid(891fdfb7c940e1249ad9eed20a515b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/RPG_Map.tmx using Guid(891fdfb7c940e1249ad9eed20a515b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d5be2041ce5e39268fe17c645d1c74a') in 0.008183 seconds
+  Import took 0.012782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.913226 seconds.
+  path: Assets/Tilemaps/RPG_Map.tmx
+  artifactKey: Guid(891fdfb7c940e1249ad9eed20a515b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/RPG_Map.tmx using Guid(891fdfb7c940e1249ad9eed20a515b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfa3d6a2797789bfcfc733ce8ee9e43b') in 0.009208 seconds
+  Import took 0.013453 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000490 seconds.
+  path: Assets/Tilemaps/RpgTileSet.tsx
+  artifactKey: Guid(07a6a1a519f74cd4aa8e1f0fd247dda0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/RpgTileSet.tsx using Guid(07a6a1a519f74cd4aa8e1f0fd247dda0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09f4e9d20c910de1ef049a82f48b36c4') in 0.004657 seconds
+  Import took 0.009567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.415198 seconds.
+  path: Assets/Tilemaps/background.png
+  artifactKey: Guid(6f1e907e488d57c439ef374e47a8178d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/background.png using Guid(6f1e907e488d57c439ef374e47a8178d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cdb215a612ea30ba627f2c26684c732') in 0.038645 seconds
+  Import took 0.042560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.501079 seconds.
+  path: Assets/SuperTiled2Unity/SuperTiled2Unity.asmdef
+  artifactKey: Guid(06e56dbbb8dec4d43a0b85b0fe0dd0ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperTiled2Unity/SuperTiled2Unity.asmdef using Guid(06e56dbbb8dec4d43a0b85b0fe0dd0ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9beffb7853af06f1c285428be39af0b') in 0.012719 seconds
+  Import took 0.016304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 101.674666 seconds.
+  path: Assets/Tilemaps/RPG_Map.tmx
+  artifactKey: Guid(891fdfb7c940e1249ad9eed20a515b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/RPG_Map.tmx using Guid(891fdfb7c940e1249ad9eed20a515b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc30f94e1f1184bc5014c47d159b5a37') in 0.008184 seconds
+  Import took 0.013643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000770 seconds.
+  path: Assets/Tilemaps/RpgTileSet.tsx
+  artifactKey: Guid(07a6a1a519f74cd4aa8e1f0fd247dda0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/RpgTileSet.tsx using Guid(07a6a1a519f74cd4aa8e1f0fd247dda0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fab0ee632de1aa88fe8aa733e6feaf9') in 0.003657 seconds
+  Import took 0.008519 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 311.013385 seconds.
+  path: Assets/Tilemaps
+  artifactKey: Guid(78dadfb54d35b0a4981e46867596f82f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps using Guid(78dadfb54d35b0a4981e46867596f82f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98db1040111ff5adf9697e7b0c68e1a2') in 0.114501 seconds
+  Import took 0.831319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.341930 seconds.
+  path: Assets/Tilemaps/RPG_Map.tmx
+  artifactKey: Guid(891fdfb7c940e1249ad9eed20a515b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/RPG_Map.tmx using Guid(891fdfb7c940e1249ad9eed20a515b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '272a921aeb5d5eda5c3fc3c47d64c578') in 0.018860 seconds
+  Import took 0.025106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000463 seconds.
+  path: Assets/Tilemaps/RpgTileSet.tsx
+  artifactKey: Guid(07a6a1a519f74cd4aa8e1f0fd247dda0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/RpgTileSet.tsx using Guid(07a6a1a519f74cd4aa8e1f0fd247dda0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99ea701dfce49a25c86d39f162910b1c') in 0.004799 seconds
+  Import took 0.009483 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.157746 seconds.
+  path: Assets/Tilemaps/RPG_Map.tmx
+  artifactKey: Guid(891fdfb7c940e1249ad9eed20a515b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/RPG_Map.tmx using Guid(891fdfb7c940e1249ad9eed20a515b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cdc2e0abbc4abe67afa9fec65e4a3b7') in 0.011525 seconds
+  Import took 0.016140 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000440 seconds.
+  path: Assets/Tilemaps/RpgTileSet.tsx
+  artifactKey: Guid(07a6a1a519f74cd4aa8e1f0fd247dda0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/RpgTileSet.tsx using Guid(07a6a1a519f74cd4aa8e1f0fd247dda0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22f84358c9dd3730fb6b04dd7bbe1f75') in 0.004609 seconds
+  Import took 0.010733 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
