@@ -10,7 +10,8 @@ public class NetworkManager : MonoBehaviourPunCallbacks
 
     // instance
     public static NetworkManager instance;
-    void Awake()
+
+    private void Awake()
     {
         if (instance != null && instance != this)
             gameObject.SetActive(false);
@@ -37,6 +38,7 @@ public class NetworkManager : MonoBehaviourPunCallbacks
     {
         RoomOptions options = new RoomOptions();
         options.MaxPlayers = (byte)maxPlayers;
+
         PhotonNetwork.CreateRoom(roomName, options);
     }
 
@@ -45,14 +47,9 @@ public class NetworkManager : MonoBehaviourPunCallbacks
         PhotonNetwork.JoinRoom(roomName);
     }
 
+    [PunRPC]
     public void ChangeScene(string sceneName)
     {
         PhotonNetwork.LoadLevel(sceneName);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
