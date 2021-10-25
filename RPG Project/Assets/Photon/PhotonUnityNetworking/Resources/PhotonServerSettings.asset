@@ -38,6 +38,16 @@ MonoBehaviour:
   - DestroyRpc
   - UpdateLobbyUI
   - ChangeScene
+  - ImInGame
+  - TakeDamage
+  - Initialize
+  - Heal
+  - GiveGold
+  - UpdateHealthBar
+  - Log
+  - DestroyPickup
+  - FlashDamage
+  - Die
   DisableAutoOpenWizard: 1
   ShowSettings: 0
-  DevRegionSetOnce: 0
+  DevRegionSetOnce: 1
